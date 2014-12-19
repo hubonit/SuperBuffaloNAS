@@ -1,0 +1,10 @@
+#!/bin/sh
+
+prefix="/opt"
+PATH=${prefix}/bin:${prefix}/sbin:/sbin:/bin:/usr/sbin:/usr/bin
+export LD_LIBRARY_PATH=/opt/lib
+
+mpd /opt/etc/mpd.conf
+wait
+screen -dmS client175 python /opt/client175/server.py
+wait

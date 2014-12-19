@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd /dev
+mknod -m 660 mixer c 14 0
+mknod -m 660 dsp c 14 3 
+
