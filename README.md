@@ -9,4 +9,5 @@ Buffalo NAS additional features:
 4. Pyload, web audio
 5. Cross compilation/Unbricked Buffalo NAS etc.
 
-For further details, please refer to http://hubonit.com/ideas/?p=46
+Documentation:  
+http://hubonit.com/ideas/?p=46
